@@ -4,7 +4,7 @@
   <rect x="80" y="80" width="1340" height="840" rx="22" ry="22" fill="none" stroke="black" stroke-width="3" />
 
   <!-- LANDON (Block layout for strict CAM filled geometry compatibility) -->
-  <g transform="translate(315, 230) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
+  <g transform="translate(315, 300) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
     <path transform="translate(0,0)" d="M 0,0 V 100 H 80 V 80 H 20 V 0 Z" />
     <path transform="translate(100,0)" d="M 20,0 H 80 V 100 H 60 V 60 H 20 V 100 H 0 V 20 L 20,0 Z M 20,20 V 40 H 60 V 20 Z" />
     <path transform="translate(200,0)" d="M 0,0 H 20 L 60,60 V 0 H 80 V 100 H 60 L 20,40 V 100 H 0 Z" />
@@ -14,13 +14,13 @@
   </g>
 
   <!-- GAMBLIN (Block layout for strict CAM filled geometry compatibility) -->
-  <g transform="translate(240, 480) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
+  <g transform="translate(240, 550) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
     <path transform="translate(0,0)" d="M 20,0 H 80 V 20 H 20 V 80 H 80 V 50 H 50 V 30 H 100 V 100 H 20 L 0,80 V 20 Z" />
-    <path transform="translate(100,0)" d="M 20,0 H 80 V 100 H 60 V 60 H 20 V 100 H 0 V 20 L 20,0 Z M 20,20 V 40 H 60 V 20 Z" />
-    <path transform="translate(200,0)" d="M 0,0 H 20 L 40,40 L 60,0 H 80 V 100 H 60 V 40 L 40,80 L 20,40 V 100 H 0 Z" />
-    <path transform="translate(300,0)" d="M 0,0 H 60 L 80,15 V 45 L 60,50 L 80,55 V 85 L 60,100 H 0 Z M 20,20 V 40 H 60 V 20 Z M 20,60 V 80 H 60 V 60 Z" />
-    <path transform="translate(400,0)" d="M 0,0 V 100 H 80 V 80 H 20 V 0 Z" />
-    <path transform="translate(500,0)" d="M 30,0 H 50 V 100 H 30 Z" />
+    <path transform="translate(120,0)" d="M 20,0 H 80 V 100 H 60 V 60 H 20 V 100 H 0 V 20 L 20,0 Z M 20,20 V 40 H 60 V 20 Z" />
+    <path transform="translate(220,0)" d="M 0,0 H 20 L 40,40 L 60,0 H 80 V 100 H 60 V 40 L 40,80 L 20,40 V 100 H 0 Z" />
+    <path transform="translate(320,0)" d="M 0,0 H 60 L 80,15 V 45 L 60,50 L 80,55 V 85 L 60,100 H 0 Z M 20,20 V 40 H 60 V 20 Z M 20,60 V 80 H 60 V 60 Z" />
+    <path transform="translate(420,0)" d="M 0,0 V 100 H 80 V 80 H 20 V 0 Z" />
+    <path transform="translate(520,0)" d="M 30,0 H 50 V 100 H 30 Z" />
     <path transform="translate(600,0)" d="M 0,0 H 20 L 60,60 V 0 H 80 V 100 H 60 L 20,40 V 100 H 0 Z" />
   </g>
 </svg>
