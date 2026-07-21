@@ -1,0 +1,131 @@
+# ============================================================
+#  Makera Z1 — .gitignore
+#  Tailored for CNC, CAD, and laser engraving workflows
+# ============================================================
+
+# ------------------------------------------------------------
+# OS junk
+# ------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------
+# General editor / IDE temp files
+# ------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.swp
+*~
+\#*\#
+.#*
+
+# ------------------------------------------------------------
+# LightBurn backups
+# ------------------------------------------------------------
+*.lbrn2_backup
+*.lbrn_backup
+*.lbrn2~
+*.lbrn~
+
+# ------------------------------------------------------------
+# Fusion 360 / Autodesk cache & lock files
+# ------------------------------------------------------------
+*.lock
+*.lck
+.fusioncache/
+fusion_cache/
+*.autosave
+*.f3d.bak
+*.f3z.bak
+
+# ------------------------------------------------------------
+# VCarve / Aspire backup and temp files
+# ------------------------------------------------------------
+*.crv_bak
+*.crv3d_bak
+*.v3d_bak
+Backup/
+
+# ------------------------------------------------------------
+# Inkscape / Illustrator intermediates
+# ------------------------------------------------------------
+*.ai~
+*.svg~
+
+# ------------------------------------------------------------
+# FreeCAD temp / backup
+# ------------------------------------------------------------
+*.FCStd1
+*.FCStd2
+
+# ------------------------------------------------------------
+# KiCad temp files (for PCB isolation milling)
+# ------------------------------------------------------------
+*.000
+*-backups/
+fp-info-cache
+
+# ------------------------------------------------------------
+# Large CAD render / simulation caches
+# ------------------------------------------------------------
+*.sim
+*.step.lock
+*.stp.lock
+SimulationResults/
+RenderOutput/
+
+# ------------------------------------------------------------
+# Node / Python tooling (documentation generators, etc.)
+# ------------------------------------------------------------
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ------------------------------------------------------------
+# Miscellaneous large binary intermediates
+# ------------------------------------------------------------
+*.obj
+*.mtl
+# Keep *.stl (final 3D print / toolpath source files)
+# Keep *.step / *.stp (final MCAD exchange files)
+# Keep *.svg / *.dxf (vector source files)
+# Keep *.nc / *.gcode / *.tap (final CNC programs)
+
+# ------------------------------------------------------------
+# Explicitly KEEP the following (un-ignore if caught above)
+# ------------------------------------------------------------
+!*.svg
+!*.dxf
+!*.DXF
+!*.step
+!*.stp
+!*.STEP
+!*.STP
+!*.stl
+!*.STL
+!*.nc
+!*.NC
+!*.gcode
+!*.GCODE
+!*.tap
+!*.TAP
+!*.ngc
+!*.f3d
+!*.lbrn2
+!*.lbrn
+!*.crv
+!*.crv3d
