@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150mm" height="100mm" viewBox="0 0 1500 1000">
+  <!-- Clean plaque border -->
+  <rect x="25" y="25" width="1450" height="950" rx="28" ry="28" fill="none" stroke="black" stroke-width="8" />
+  <rect x="80" y="80" width="1340" height="840" rx="22" ry="22" fill="none" stroke="black" stroke-width="3" />
+
+  <!-- LANDON GAMBLIN (Fully spelled out in vector strokes) -->
+  <g fill="none" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- L -->
+    <path d="M150 400 L150 600 L210 600" />
+    <!-- A -->
+    <path d="M240 600 L270 400 L300 600 M255 500 L285 500" />
+    <!-- N -->
+    <path d="M330 600 L330 400 L390 600 L390 400" />
+    <!-- D -->
+    <path d="M420 400 L460 400 Q500 400 500 500 Q500 600 460 600 L420 600 Z" />
+    <!-- O -->
+    <path d="M540 400 Q510 400 510 500 Q510 600 540 600 Q570 600 570 500 Q570 400 540 400 Z" />
+    <!-- N -->
+    <path d="M600 600 L600 400 L660 600 L660 400" />
+
+    <!-- G -->
+    <path d="M730 400 Q690 400 690 500 Q690 600 730 600 Q770 600 770 550 L730 550" />
+    <!-- A -->
+    <path d="M800 600 L830 400 L860 600 M815 500 L845 500" />
+    <!-- M -->
+    <path d="M890 600 L890 400 L920 500 L950 400 L950 600" />
+    <!-- B -->
+    <path d="M980 400 L1020 400 Q1040 400 1040 450 Q1040 500 1020 500 M980 500 L1020 500 Q1040 500 1040 550 Q1040 600 1020 600 L980 600 L980 400" />
+    <!-- L -->
+    <path d="M1070 400 L1070 600 L1130 600" />
+    <!-- I -->
+    <path d="M1160 400 L1220 400 M1190 400 L1190 600 M1160 600 L1220 600" />
+    <!-- N -->
+    <path d="M1250 600 L1250 400 L1310 600 L1310 400" />
+  </g>
+</svg>
