@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50mm" height="50mm">
+  <!-- Outer Rim & Inner Ring -->
+  <circle cx="50" cy="50" r="48" stroke="black" stroke-width="1.5" fill="none" />
+  <circle cx="50" cy="50" r="44" stroke="black" stroke-width="0.75" stroke-dasharray="2,2" fill="none" />
+  
+  <!-- Top & Bottom Banner Text (Scaled and positioned to fit comfortably inside the curve) -->
+  <text x="50" y="26" font-family="Arial, sans-serif" font-size="5.5" font-weight="bold" text-anchor="middle" fill="black">TUTORIAL COMPLETE</text>
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="middle" fill="black">LEVEL UNLOCKED</text>
+  
+  <!-- Center D-Pad -->
+  <polygon points="44,38 56,38 56,46 64,46 64,58 56,58 56,66 44,66 44,58 36,58 36,46 44,46" fill="black" />
+  <circle cx="50" cy="52" r="3" fill="white" />
+  
+  <!-- Left & Right Accent Stars -->
+  <polygon points="23,48 24.5,51 28,51.5 25.5,54 26,57.5 23,55.5 20,57.5 20.5,54 18,51.5 21.5,51" fill="black" />
+  <polygon points="77,48 78.5,51 82,51.5 79.5,54 80,57.5 77,55.5 74,57.5 74.5,54 72,51.5 75.5,51" fill="black" />
+</svg>

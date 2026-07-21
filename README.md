@@ -1,103 +1,79 @@
-# Makera Z1 — Open Lab
+# Makera Z1 Open Lab
 
-> **A public learning lab documenting the capabilities, projects, and workflow of the [Makera Z1](https://makera.com/) — a hybrid desktop CNC mill and 5 W diode laser engraver.**
+A public build log and reference library for work done on the [Makera Z1](https://makera.com/) hybrid desktop CNC mill and 5W diode laser.
 
-This repository is a living record of everything I machine and engrave: vector art, 3D models, G-code programs, custom CAM tool libraries, material test results, and full project write-ups. Nothing here is polished marketing material — it's real-world notes, failures, and fixes.
+This repository tracks real machine work: projects, CAM settings, material tests, tooling, and maintenance notes. It is intended as a practical operating notebook, including mistakes, adjustments, and repeatable settings.
 
----
+## What You Will Find Here
 
-## 📂 Repository Navigation
+- Project folders with source files, exports, and job notes
+- Material test data with settings that worked (and did not)
+- Tool library definitions for common CAM workflows
+- Maintenance and calibration records
+- Quick-reference resources for setup and troubleshooting
 
-| Folder | Contents |
+## Repository Layout
+
+| Path | Purpose |
 |---|---|
-| [`/projects/`](./projects/) | Individual build folders, each self-contained with source files, G-code, and a project README |
-| [`/materials-and-settings/`](./materials-and-settings/) | Quick-reference parameter tables + a structured CSV log for every material tested |
-| [`/tool-library/`](./tool-library/) | Exported tool definitions for Makera CAM, LightBurn, Fusion 360, and VCarve |
-| [`/maintenance/`](./maintenance/) | Calibration dates, firmware changelogs, spindle hours, lubrication schedule, and hardware mods |
-| [`/resources/`](./resources/) | Cheat sheets, fixture diagrams, wiring references, and curated community links |
+| [projects/](./projects/) | Self-contained project folders with assets, outputs, and documentation |
+| [materials-and-settings/](./materials-and-settings/) | Material test logs, parameter notes, and [materials-log.csv](./materials-and-settings/materials-log.csv) |
+| [tool-library/](./tool-library/) | Reusable tool definitions and presets for CAM and engraving software |
+| [maintenance/](./maintenance/) | Calibration notes, firmware history, machine upkeep logs, and modifications |
+| [resources/](./resources/) | Cheat sheets, fixtures, wiring references, and external links |
 
----
+## Quick Start
 
-## 🛠 Hardware & Setup
+1. Open [projects/README.md](./projects/README.md) to choose a project structure.
+2. Review [materials-and-settings/README.md](./materials-and-settings/README.md) for known-safe starting parameters.
+3. Confirm your tooling against [tool-library/README.md](./tool-library/README.md).
+4. Run the pre-flight checklist below before cutting or engraving.
+5. Log your results in [materials-log.csv](./materials-and-settings/materials-log.csv).
 
-### Machine Specs
+## Machine Snapshot
 
 | Attribute | Value |
 |---|---|
 | Machine | Makera Z1 |
-| Work area (XY) | 200 × 200 mm (nominal) |
-| Z travel | ~50 mm |
-| Spindle | Brushless 10 000–24 000 RPM |
-| Laser module | 5 W diode (450 nm blue) |
-| Controller | Makera proprietary / grbl-based |
-| Software | Makera CAM, LightBurn (laser), Fusion 360, VCarve |
-| Connectivity | USB / Wi-Fi |
+| Work area (XY) | 200 x 200 mm (nominal) |
+| Z travel | About 50 mm |
+| Spindle | Brushless, 10,000 to 24,000 RPM |
+| Laser module | 5W diode, 450 nm |
+| Controller | Makera proprietary, GRBL-based |
+| Software | Makera CAM, LightBurn, Fusion 360, VCarve |
+| Connectivity | USB, Wi-Fi |
 
-### Bits & End Mills on Hand
+## Pre-Flight Safety Checklist
 
-| Tool | Diameter | Flutes | Material Suitability |
-|---|---|---|---|
-| Flat end mill | 3.175 mm (1/8″) | 2 | Wood, acrylic, soft metals |
-| V-bit | 60° | — | Engraving, PCB isolation |
-| Ball nose | 3.175 mm | 2 | 3D surfacing, wood |
-| Drill bit | 1.0 mm | — | PCB drilling |
-| Drag knife | — | — | Vinyl, paper |
+Use this checklist before every job.
 
-### Optional Accessories
-
-- Rotary axis attachment
-- Vacuum workholding plate
-- Enclosure / fume extractor
-- Probe / tool-length sensor
-- Laser safety enclosure panel
-
----
-
-## ✅ Safety & Pre-Flight Checklist
-
-Run through this list **before every job**.
-
-| # | Check | ✓ |
+| # | Check | Done |
 |---|---|---|
-| 1 | Ventilation on / fume extractor running | ☐ |
-| 2 | Laser safety glasses worn (OD4+ 445–450 nm) | ☐ |
-| 3 | Enclosure door closed (laser jobs) | ☐ |
-| 4 | Workpiece securely clamped / vacuum engaged | ☐ |
-| 5 | Tool correctly seated and collet torqued | ☐ |
-| 6 | Z-probe run; Work Coordinate System (WCS) zeroed | ☐ |
-| 7 | XY datum / corner confirmed in CAM preview | ☐ |
-| 8 | Spindle / laser speed matches CAM program | ☐ |
-| 9 | Feed-hold and E-stop accessible | ☐ |
-| 10 | No loose clothing, hair, or cables near spindle | ☐ |
-| 11 | Fire extinguisher within arm's reach | ☐ |
-| 12 | First 30 s: observe machine closely, finger on feed-hold | ☐ |
+| 1 | Ventilation and fume extraction are running | ☐ |
+| 2 | Proper laser safety eyewear is worn for laser jobs | ☐ |
+| 3 | Workpiece is securely clamped or vacuum-held | ☐ |
+| 4 | Tool is correctly seated and collet is tightened | ☐ |
+| 5 | Work zero and Z zero are set and verified | ☐ |
+| 6 | CAM preview and machine origin match | ☐ |
+| 7 | Feed-hold and emergency stop are immediately accessible | ☐ |
+| 8 | First 30 seconds are monitored at the machine | ☐ |
 
----
+## Standard Workflow
 
-## 📐 Quick-Start Workflow
+1. Design in CAD or vector tools.
+2. Generate toolpaths in CAM.
+3. Verify setup and run pre-flight checks.
+4. Start job, monitor, and adjust as needed.
+5. Record final settings and outcomes for future runs.
 
-```
-Design (Fusion 360 / Inkscape / LightBurn)
-  │
-  ▼
-CAM / laser path setup (Makera CAM / LightBurn / VCarve)
-  │
-  ▼
-Pre-flight checklist ✓
-  │
-  ▼
-Send to machine → observe → adjust
-  │
-  ▼
-Log results in /materials-and-settings/materials-log.csv
-```
+## Contributing Notes
 
----
+Small, practical updates are welcome, especially:
 
-## 📄 License
+- Material settings validated on real jobs
+- Tooling changes with measurable outcomes
+- Setup or maintenance notes that improve repeatability
 
-Files in this repository are released under the [MIT License](./LICENSE) unless otherwise noted in a project subfolder.
+## License
 
----
-
-*Questions, suggestions, or want to share a parameter that works well? Open an issue or start a discussion.*
+This repository is licensed under the [Apache License 2.0](./LICENSE), unless a subfolder explicitly states otherwise.

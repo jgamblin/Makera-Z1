@@ -16,5 +16,6 @@ Each subfolder in this directory represents a single completed (or in-progress) 
 
 | Project | Status | Material | Date |
 |---|---|---|---|
+| `first-coin-laser-test/` | Planning | TBD | 2026-07-21 |
 | `_template/` | — | — | — |
 | *(add rows as projects grow)* | | | |
