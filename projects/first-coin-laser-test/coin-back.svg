@@ -7,10 +7,10 @@
   <rect x="18" y="22" width="64" height="56" rx="3" fill="none" stroke="black" stroke-width="1.5" />
   
   <!-- RPG Stat Text -->
-  <text x="50" y="32" font-family="monospace, Arial, sans-serif" font-size="6.5" font-weight="bold" text-anchor="middle" fill="black">PLAYER: LANDON</text>
+  <text x="50" y="32" font-family="monospace, Arial, sans-serif" font-size="6.5" font-weight="bold" text-anchor="middle" fill="black" stroke="black" stroke-width="0.2" paint-order="stroke fill">PLAYER: LANDON</text>
   <line x1="22" y1="36" x2="78" y2="36" stroke="black" stroke-width="1" />
-  <text x="50" y="45" font-family="monospace, Arial, sans-serif" font-size="5" font-weight="bold" text-anchor="middle" fill="black">CLASS: GAME DESIGNER</text>
-  <text x="50" y="54" font-family="monospace, Arial, sans-serif" font-size="5.5" font-weight="bold" text-anchor="middle" fill="black">INTELLECT: +10</text>
-  <text x="50" y="63" font-family="monospace, Arial, sans-serif" font-size="5.5" font-weight="bold" text-anchor="middle" fill="black">CREATIVITY: +10</text>
-  <text x="50" y="73" font-family="monospace, Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="black">[ BUILD READY ]</text>
+  <text x="50" y="45" font-family="monospace, Arial, sans-serif" font-size="5" font-weight="bold" text-anchor="middle" fill="black" stroke="black" stroke-width="0.2" paint-order="stroke fill">CLASS: GAME DESIGNER</text>
+  <text x="50" y="54" font-family="monospace, Arial, sans-serif" font-size="5.5" font-weight="bold" text-anchor="middle" fill="black" stroke="black" stroke-width="0.2" paint-order="stroke fill">INTELLECT: +10</text>
+  <text x="50" y="63" font-family="monospace, Arial, sans-serif" font-size="5.5" font-weight="bold" text-anchor="middle" fill="black" stroke="black" stroke-width="0.2" paint-order="stroke fill">CREATIVITY: +10</text>
+  <text x="50" y="73" font-family="monospace, Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="black" stroke="black" stroke-width="0.2" paint-order="stroke fill">[ BUILD READY ]</text>
 </svg>

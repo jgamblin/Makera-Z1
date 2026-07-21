@@ -83,6 +83,17 @@ Create a clean first-pass engrave of both sides, learn the Z1 laser workflow, an
 - Burnt edges: reduce power or increase speed.
 - Blurry lines: re-check focus and secure material better.
 - Front/back mismatch: improve jig references and keep one consistent origin mode.
+- Text not detected in CAM: convert text to paths/outlines in your design app, then re-export SVG.
+
+## If Text Still Does Not Import
+
+Some CAM tools ignore SVG `<text>` elements and only read path geometry.
+
+1. Open the SVG in LightBurn, Inkscape, or Illustrator.
+2. Select all text objects.
+3. Convert text to paths/outlines.
+4. Save as a new file, for example `coin-back-outlined.svg`.
+5. Re-import that outlined SVG into your laser workflow.
 
 ## Next Improvement Ideas
 
