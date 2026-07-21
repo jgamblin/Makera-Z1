@@ -3,37 +3,24 @@
   <rect x="25" y="25" width="1450" height="950" rx="28" ry="28" fill="none" stroke="black" stroke-width="8" />
   <rect x="80" y="80" width="1340" height="840" rx="22" ry="22" fill="none" stroke="black" stroke-width="3" />
 
-  <!-- LANDON -->
-  <g fill="none" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <!-- L -->
-    <path d="M360 250 L360 450 L440 450" />
-    <!-- A -->
-    <path d="M480 450 L530 250 L580 450 M495 350 L565 350" />
-    <!-- N -->
-    <path d="M620 450 L620 250 L720 450 L720 250" />
-    <!-- D -->
-    <path d="M760 250 L810 250 Q860 250 860 350 Q860 450 810 450 L760 450 Z" />
-    <!-- O -->
-    <path d="M950 250 Q900 250 900 350 Q900 450 950 450 Q1000 450 1000 350 Q1000 250 950 250 Z" />
-    <!-- N -->
-    <path d="M1040 450 L1040 250 L1140 450 L1140 250" />
+  <!-- LANDON (Block layout for strict CAM filled geometry compatibility) -->
+  <g transform="translate(315, 230) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
+    <path transform="translate(0,0)" d="M 0,0 V 100 H 80 V 80 H 20 V 0 Z" />
+    <path transform="translate(100,0)" d="M 20,0 H 80 V 100 H 60 V 60 H 20 V 100 H 0 V 20 L 20,0 Z M 20,20 V 40 H 60 V 20 Z" />
+    <path transform="translate(200,0)" d="M 0,0 H 20 L 60,60 V 0 H 80 V 100 H 60 L 20,40 V 100 H 0 Z" />
+    <path transform="translate(300,0)" d="M 0,0 H 60 L 80,20 V 80 L 60,100 H 0 Z M 20,20 V 80 H 50 L 60,70 V 30 L 50,20 Z" />
+    <path transform="translate(400,0)" d="M 20,0 H 60 L 80,20 V 80 L 60,100 H 20 L 0,80 V 20 Z M 20,20 V 80 H 60 V 20 Z" />
+    <path transform="translate(500,0)" d="M 0,0 H 20 L 60,60 V 0 H 80 V 100 H 60 L 20,40 V 100 H 0 Z" />
   </g>
 
-  <!-- GAMBLIN -->
-  <g fill="none" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <!-- G -->
-    <path d="M440 550 Q360 550 360 650 Q360 750 405 750 Q450 750 450 700 L405 700" />
-    <!-- A -->
-    <path d="M480 750 L525 550 L570 750 M495 650 L555 650" />
-    <!-- M -->
-    <path d="M600 750 L600 550 L655 650 L710 550 L710 750" />
-    <!-- B -->
-    <path d="M740 550 L790 550 Q820 550 820 600 Q820 650 790 650 M740 650 L790 650 Q820 650 820 700 Q820 750 790 750 L740 750 L740 550" />
-    <!-- L -->
-    <path d="M850 550 L850 750 L930 750" />
-    <!-- I -->
-    <path d="M960 550 L1020 550 M990 550 L990 750 M960 750 L1020 750" />
-    <!-- N -->
-    <path d="M1050 750 L1050 550 L1140 750 L1140 550" />
+  <!-- GAMBLIN (Block layout for strict CAM filled geometry compatibility) -->
+  <g transform="translate(240, 480) scale(1.5)" fill="black" fill-rule="evenodd" stroke="none">
+    <path transform="translate(0,0)" d="M 20,0 H 80 V 20 H 20 V 80 H 80 V 50 H 50 V 30 H 100 V 100 H 20 L 0,80 V 20 Z" />
+    <path transform="translate(100,0)" d="M 20,0 H 80 V 100 H 60 V 60 H 20 V 100 H 0 V 20 L 20,0 Z M 20,20 V 40 H 60 V 20 Z" />
+    <path transform="translate(200,0)" d="M 0,0 H 20 L 40,40 L 60,0 H 80 V 100 H 60 V 40 L 40,80 L 20,40 V 100 H 0 Z" />
+    <path transform="translate(300,0)" d="M 0,0 H 60 L 80,15 V 45 L 60,50 L 80,55 V 85 L 60,100 H 0 Z M 20,20 V 40 H 60 V 20 Z M 20,60 V 80 H 60 V 60 Z" />
+    <path transform="translate(400,0)" d="M 0,0 V 100 H 80 V 80 H 20 V 0 Z" />
+    <path transform="translate(500,0)" d="M 30,0 H 50 V 100 H 30 Z" />
+    <path transform="translate(600,0)" d="M 0,0 H 20 L 60,60 V 0 H 80 V 100 H 60 L 20,40 V 100 H 0 Z" />
   </g>
 </svg>
