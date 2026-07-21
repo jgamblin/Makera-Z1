@@ -1,0 +1,3 @@
+date,machine_mode,material,material_thickness_mm,operation,tool_or_module,power_pct,speed_mm_s_or_mm_min,plunge_mm_min,spindle_rpm,woc_mm,doc_mm,passes,air_assist,result,notes
+2026-01-01,Laser,Anodized aluminium black,1.5,Engrave fill,5W diode,80,100,,,,, 1,No,Pass,Reference baseline — clean removal
+2026-01-01,CNC,Plywood 3mm,3,Profile cut,3.175mm 2-flute,,800,250,20000,full,2,3,No,Pass,Tabs used; clean edges
