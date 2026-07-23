@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150mm" height="100mm" viewBox="0 0 1500 1000">
+  <!-- 150 x 100 mm board boundary -->
+  <rect x="20" y="20" width="1460" height="960" fill="none" stroke="black" stroke-width="6" />
+
+  <!-- Safe margin guide -->
+  <rect x="80" y="80" width="1340" height="840" fill="none" stroke="black" stroke-width="2" stroke-dasharray="12 8" />
+
+  <!-- Horizon line -->
+  <line x1="80" y1="640" x2="1420" y2="640" stroke="black" stroke-width="3" />
+
+  <!-- Mountain silhouettes -->
+  <polygon points="120,640 340,320 560,640" fill="none" stroke="black" stroke-width="4" />
+  <polygon points="420,640 660,280 900,640" fill="none" stroke="black" stroke-width="4" />
+  <polygon points="760,640 1010,360 1260,640" fill="none" stroke="black" stroke-width="4" />
+
+  <!-- Pixel sun -->
+  <rect x="1140" y="140" width="180" height="180" fill="none" stroke="black" stroke-width="4" />
+  <line x1="1230" y1="90" x2="1230" y2="140" stroke="black" stroke-width="4" />
+  <line x1="1230" y1="320" x2="1230" y2="370" stroke="black" stroke-width="4" />
+  <line x1="1090" y1="230" x2="1140" y2="230" stroke="black" stroke-width="4" />
+  <line x1="1320" y1="230" x2="1370" y2="230" stroke="black" stroke-width="4" />
+
+  <!-- Space-invader style icon (original block pattern) -->
+  <g fill="black">
+    <rect x="250" y="150" width="40" height="40" />
+    <rect x="290" y="150" width="40" height="40" />
+    <rect x="330" y="150" width="40" height="40" />
+    <rect x="370" y="150" width="40" height="40" />
+    <rect x="410" y="150" width="40" height="40" />
+
+    <rect x="210" y="190" width="40" height="40" />
+    <rect x="250" y="190" width="40" height="40" />
+    <rect x="330" y="190" width="40" height="40" />
+    <rect x="410" y="190" width="40" height="40" />
+    <rect x="450" y="190" width="40" height="40" />
+
+    <rect x="170" y="230" width="40" height="40" />
+    <rect x="210" y="230" width="40" height="40" />
+    <rect x="250" y="230" width="40" height="40" />
+    <rect x="290" y="230" width="40" height="40" />
+    <rect x="330" y="230" width="40" height="40" />
+    <rect x="370" y="230" width="40" height="40" />
+    <rect x="410" y="230" width="40" height="40" />
+    <rect x="450" y="230" width="40" height="40" />
+    <rect x="490" y="230" width="40" height="40" />
+
+    <rect x="170" y="270" width="40" height="40" />
+    <rect x="250" y="270" width="40" height="40" />
+    <rect x="290" y="270" width="40" height="40" />
+    <rect x="330" y="270" width="40" height="40" />
+    <rect x="370" y="270" width="40" height="40" />
+    <rect x="410" y="270" width="40" height="40" />
+    <rect x="490" y="270" width="40" height="40" />
+
+    <rect x="170" y="310" width="40" height="40" />
+    <rect x="250" y="310" width="40" height="40" />
+    <rect x="450" y="310" width="40" height="40" />
+    <rect x="530" y="310" width="40" height="40" />
+  </g>
+
+  <!-- Retro controller outline -->
+  <rect x="980" y="720" width="360" height="180" rx="36" ry="36" fill="none" stroke="black" stroke-width="5" />
+  <rect x="1060" y="780" width="80" height="20" fill="black" />
+  <rect x="1090" y="750" width="20" height="80" fill="black" />
+  <circle cx="1240" cy="780" r="22" fill="black" />
+  <circle cx="1290" cy="820" r="22" fill="black" />
+
+  <!-- Ground platform tiles -->
+  <g fill="none" stroke="black" stroke-width="3">
+    <rect x="80" y="700" width="120" height="120" />
+    <rect x="200" y="700" width="120" height="120" />
+    <rect x="320" y="700" width="120" height="120" />
+    <rect x="440" y="700" width="120" height="120" />
+    <rect x="560" y="700" width="120" height="120" />
+    <rect x="680" y="700" width="120" height="120" />
+    <rect x="800" y="700" width="120" height="120" />
+  </g>
+
+  <!-- Test swatches for laser tuning -->
+  <g>
+    <rect x="120" y="860" width="120" height="60" fill="black" />
+    <rect x="260" y="860" width="120" height="60" fill="none" stroke="black" stroke-width="3" />
+    <rect x="400" y="860" width="120" height="60" fill="none" stroke="black" stroke-width="3" stroke-dasharray="8 6" />
+  </g>
+</svg>
